@@ -1,0 +1,79 @@
+
+/* Cabeçario/Menu */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(193, 249, 232);
+}
+
+.container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 300px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+header h1 {
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+nav {
+    padding: 155px;
+    text-align: center;
+
+}
+nav li {
+    padding-top: 30px;
+    display: inline-block;
+
+}
+nav li a {
+    color: rgb(9, 2, 32);
+    padding-right: 50px;
+    text-decoration: none;
+}
+
+
+/* Roda Pé */
+
+
+.midia-social ul li {
+    display: inline;
+}
+
+
+.midia-social img { 
+    height: 24px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+
+#midia h2 {
+    font-size: 15px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.endereco p {
+    font-size: 15px;
+    margin-left: 750px
+}
+
+footer {
+    background-color: rgb(110, 44, 244);
+}
+
+.footer p {
+    padding-top: 50px;
+    font-size: 15px;
+    padding-left: 10px;
+}
