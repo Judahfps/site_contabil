@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-fundo: rgb(118, 180, 145);
+    --cor-fundo: rgb(231, 241, 236);
+
+}
+
+.tudo-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+body {
+    background-color: rgba(200, 200, 200, 0.932);
+}
+
+
+.container {
+    /* logo da pagina */
+    background-color: rgb(186, 231, 245);
+    height: 50vh;
+    margin-top: -50px;
+}
+
+.container img {
+    width: 100%;
+    height: 50vh;
+}
+
+#menu ul {
+    /* menu navegação */
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(73, 76, 75);
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: beige;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    transition: background .6s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(73, 58, 244);
+}
+
+#menu ul ul {
+    /* sub-menu */
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu ul ul {
+    width: 320px;
+}
+
+#menu ul ul li a {
+    display: block;
+    font-size: 15px;
+}
+
+.titulo-h1 {
+    /*sessão de conteudo */
+    text-align: center;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+
+}
+
+
+#noticia {
+    flex: 1 0 auto;
+}
+
+#footer {
+    /* Roda Pé */
+    background-color: rgb(73, 76, 75);
+    color: beige;
+}
+
+.copy {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 15px;
+}
+
+.midia-social h2 {
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.midia-social img {
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.midia-social img:hover {
+    scale: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    ul a {
+        font-size: 15px;
+    }
+
+}

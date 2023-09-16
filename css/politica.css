@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family:courier,arial,helvetica;
+}
+
+/* .tudo-body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+
+body {
+    background-color: rgba(200, 200, 200, 0.932);
+}
+
+.container { /* logo da pagina */
+    background-color: rgb(186, 231, 245);
+    height: 50vh;
+    margin-top: -50px;
+}
+
+.container img {
+    width: 100%;
+    height: 50vh;
+}
+
+
+#menu ul {  /* menu navegação */
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    background-color: rgb(73, 76, 75);
+}
+
+#menu ul li {
+    display: inline;
+}
+
+#menu ul li a {
+    color: beige;
+    text-decoration: none;
+    padding: 30px;
+    display: inline-block;
+    transition: background .6s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: rgb(73, 58, 244);
+}
+
+#menu ul ul {  /* sub-menu */ 
+    display: none;
+    left: 0;
+    float: right;
+    position: absolute;
+}
+
+#menu ul li:hover ul {
+    display: block;
+}
+
+#menu ul ul {
+    width:320px;
+}
+
+#menu ul ul li a {
+    display: block;
+}
+
+.tudo-body {  /* sessão de navegação */
+    flex: 1 0 auto;
+}
+
+
+article h3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+article p {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family:courier,arial,helvetica;
+    
+}
+
+#footer {  /* Roda Pé */
+    background-color: rgb(73, 76, 75);
+    color: beige;
+}
+
+.copy {
+    display: flex;
+    justify-content: end;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 15px;
+}
+
+.midia-social h2 {
+    font-size: 15px;
+    padding-top: 30px;
+    padding-left: 15px;
+
+}
+
+.midia-social img {
+    height: 24px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.midia-social img:hover {
+    scale: 1.6;
+}
